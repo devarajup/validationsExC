@@ -1,4 +1,3 @@
-/*
 package com.cjss.validations.exception;
 
 
@@ -12,4 +11,3 @@ public  StudentNotFoundException(){
     }
 
 }
-*/

@@ -5,17 +5,17 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 public class Student {
-    @NotNull(message = "it is not null")
+//    @NotNull(message = "it is not null")
     private Integer id;
-    @NotNull(message = "it is not null -name")
-    @NotEmpty(message = "it is not empty -name")
+//    @NotNull(message = "it is not null -name")
+//    @NotEmpty(message = "it is not empty -name")
     private String name;
-    @NotEmpty(message = "it is not empty")
-    @Email
+//    @NotEmpty(message = "it is not empty")
+//    @Email
     private  String email;
-    @NotNull
+//    @NotNull
     private  String course;
-    @NotEmpty
+//    @NotEmpty
     private  String collegeName;
 
     public Student(Integer id, String name, String email, String course, String collegeName) {

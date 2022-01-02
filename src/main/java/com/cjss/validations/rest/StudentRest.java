@@ -4,6 +4,7 @@ package com.cjss.validations.rest;
 import com.cjss.validations.model.Student;
 import com.cjss.validations.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -15,7 +16,7 @@ public class StudentRest {
     private StudentService service;
 
     @PostMapping("/add")
-    public void addStudent(@Valid @RequestBody Student student){
+    public void addStudent( @RequestBody Student student){
 
     service.addStudent(student);
     }

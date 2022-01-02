@@ -1,4 +1,3 @@
-/*
 package com.cjss.validations.model;
 
 public class ErrorType {
@@ -56,4 +55,3 @@ public class ErrorType {
         this.idReq = idReq;
     }
 }
-*/
